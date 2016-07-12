@@ -1,0 +1,19 @@
+---
+layout: project
+title:  "The Hour"
+date:   2016-07-12 16:54:46
+author: Juan Luis Barreda (@achopijocoder)
+categories:
+- project
+img: portfolio_04.jpg
+carousel:
+tagged: 
+status: On Design
+client: Free, public
+technologies: Azure, Xamarin/Ionic 2 & Angular 2, ASP.Net, MongoDB or Sql Server
+website: 
+---
+#### The Hour
+The hour is a project currently in an early stage. It is initially planned to have web application and mobile app created in xamarin for iOS and android. It's my first project with a business plan so it's going to take a while in the design and construction.
+
+I can't reveal more details but in future posts I'll be evaluating some features and technologies to use because I haven't decide the main technologies for the mobile app (Xamarin or Ionic 2), the Database (SQL Server or NoSql -mongo or couchbase-) and the website (ASP.Net MVC vs Angular 2).
