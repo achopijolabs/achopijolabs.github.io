@@ -3,12 +3,12 @@
 # Site settings
 title: AchoPijo LABS.
 description: "Achopijo LABS is the place where a team of restless minds are innovating and exploring new technologies and new ideas and bringing them to life."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+analytics: UA-78433190-3
 baseurl: "" #important: start with /
 url: "http://www.achopijolabs.com"
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title
+permalink: /blog/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
@@ -27,7 +27,7 @@ colors:  #in hex code if not noted else
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
   - title: twitter
-    url: achopijocoder
+    url: http://twitter.com/achopijocoder
  # - title: dribbble
  #   url:
  # - title: facebook

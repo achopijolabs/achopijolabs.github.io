@@ -251,7 +251,7 @@ a:focus {
 
 #service i {
 	color: {{ site.colors.dark }};
-	font-size: 60px;
+	font-size: 100px;
 	padding: 15px;
 }
 
