@@ -10,6 +10,7 @@ url: "http://www.achopijolabs.com"
 markdown: kramdown
 permalink: /blog/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+gems: [jekyll-paginate]
 
 colors:  #in hex code if not noted else
   primary: "#00b3fe" #"#F70031"  
@@ -50,9 +51,12 @@ tel:
     
 # Members information. Shown on About page.
 members:
-  - name: Juan Luis Barreda (@achopijocoder)
+  - name: Juan Luis Barreda
+    apodo: achopijocoder
     position: Software Engineer
     text: .NET lover & restless mind. Happily married, father & runner. (Murcia)
+    brief: Founder, .NET lover
+    specialist: Hybrid Mobile Apps
     img: team01.jpg
     social:
       - title: envelope #use for email address
@@ -61,6 +65,8 @@ members:
         url: http://twitter.com/achopijocoder
       - title: linkedin
         url: http://www.linkedin.com/in/juanlubarreda
+      - title: github
+        url: http://www.github.com/achopijocoder
 
     
 # Clients information. Shown on Home and About pages.
@@ -81,6 +87,10 @@ technologies:
     img: client08.png
   - name: visual studio
     img: client10.png
+  - name: xamarin
+    img: client11.png
+  - name: unity
+    img: client12.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "AchoPijo Labs is the place where we share our projects meanwhile we keep on creating and developing our best ideas."

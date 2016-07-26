@@ -5,11 +5,15 @@ layout: default
 {% include wrap.html %}
 
 <div class="container mtb">
-    <div class="row">
+    <div class="row" style="text-align: justify;">
         <! -- SINGLE POST -->
-        <div class="col-lg-8">
+        <div class="col-lg-8 col-lg-offset-2">
             <! -- Blog Post  -->
-            <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
+            <p>
+                {% if page.img  %}
+                    <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}">
+                {% endif %}
+            </p>
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
             <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
               
@@ -25,7 +29,6 @@ layout: default
             </p> -->
         </div><! --/col-lg-8 -->
         
-        {% include sidebar.html %}
 
     </div><! --/row -->
 </div><! --/container -->

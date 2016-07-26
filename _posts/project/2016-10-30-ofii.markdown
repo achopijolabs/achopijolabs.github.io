@@ -1,8 +1,9 @@
 ---
 layout: project
+permalink: /projects/:title
 title:  "Ofii"
 date:   2016-07-10 16:54:46
-author: Juan Luis Barreda (@achopijocoder)
+author: achopijocoder
 categories:
 - project
 img: portfolio_03.jpg
@@ -16,5 +17,5 @@ website:
 #### Ofii
 Ofii is a project that will try to be the assistant of any worker worldwide whose work environment is an office. The objective of this project is to create a kind of co-worker to help you with day to day in certain aspects of daily work that at the moment I can not reveal :)
 
-This project development starts on July '16 and it's planned to be finished and ready to launch by the beginning of next year (2017).
+This project development starts on September '16 and it's planned to be finished and ready to launch by the Q3 (2017).
 

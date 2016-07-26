@@ -26,19 +26,19 @@ body {
 	margin: 0; 
 	height: 100%; 
 	color: {{ site.colors.secondary }};
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	}
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 }
 
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 14px; 
 	line-height: 24px;
@@ -510,4 +510,100 @@ a.anchor{
     position: relative; 
     top: -80px; 
     visibility: hidden;
+}
+
+/*
+*************************************************************
+*************************************************************
+*/
+
+/* Every post, on every page, gets this style on its <article> tag */
+.post {
+    position: relative;
+    width: 80%;
+    max-width: 710px;
+    margin: 4rem auto;
+    padding-bottom: 4rem;
+    border-bottom: #EBF2F6 1px solid;
+    word-break: break-word;
+    hyphens: auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Add a little circle in the middle of the border-bottom on our .post
+   just for the lolz and stylepoints. */
+.post:after {
+    display: block;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border: #E7EEF2 1px solid;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -5px;
+    background: #FFF;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    box-shadow: #FFF 0 0 0 5px;
+}
+
+body:not(.post-template) .post-title {
+    font-size: 2.6rem;
+}
+
+.post-title a {
+    text-decoration: none;
+}
+
+.post-excerpt {
+	margin-bottom: 8px;
+}
+
+.post-excerpt p {
+    margin: 0;
+/*    font-size: 0.9em;
+    line-height: 1.7em;*/
+}
+
+.read-more {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.post-meta {
+    display: block;
+/*    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.2rem;*/
+    color: #9EABB3;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+body:not(.post-template) .post-title {
+    font-size: 2.6rem;
+}
+
+.post-img-author-excerpt {
+	width:32px;
+	height:32px;
+	margin-right:5px;
+}
+
+.post-archive{
+	padding-bottom: 0;
+}
+
+.about-member-apodo{
+	color: #00B3FE;
+    font-size: 18px;
 }

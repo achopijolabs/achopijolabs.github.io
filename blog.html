@@ -4,14 +4,42 @@ title: Blog
 permalink: /blog/
 ---
 
-<div class="container mtb">
+<main id="content" class="content" role="main">
+
+ {% for post in site.categories['blog'] limit:10 %}
+ <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        </header>
+        <section class="post-excerpt">
+            {{ post.excerpt }}<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read more &raquo;</a>
+        </section>
+        <footer class="post-meta">
+            {% for member in site.members %}
+                {% if member.apodo == post.author %}
+                    <a href="{{ "/members/" }}{{ post.author }}"><img class="post-img-author-excerpt" src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt=""></a>
+                {% endif %}
+            {% endfor %}
+            <a href="{{ "/members/" }}{{ post.author }}">{{ post.author }}</a>
+             on
+             {% for tag in post.tags %}
+                <a href="/blog/tags/">{{tag}}</a>
+             {% endfor %}
+            <time class="post-date">| {{ post.date | date_to_string }}</time>
+        </footer>
+    </article>
+{% endfor %}
+<div style="text-align:center;margin-bottom: 50px;">
+<a class="btn btn-info btn-xl" href="/blog/archive/">... More Posts</a>
+</div>
+</main>
+<!-- <div class="container mtb">
     <div class="row">
 
-        <! -- BLOG POSTS LIST -->
         <div class="col-lg-8">
 
             {% for post in site.categories['blog'] %}
-                <! -- Blog Post -->
+                
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
                 </a>    
@@ -24,9 +52,9 @@ permalink: /blog/
                 <div class="spacing"></div>
             {% endfor %}
 
-        </div><! --/col-lg-8 -->
+        </div>
 
-        {% include sidebar.html %}
+        
 
-    </div><! --/row -->
-</div><! --/container -->
+    </div>
+</div>  -->

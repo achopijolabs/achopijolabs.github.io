@@ -1,8 +1,9 @@
 ---
 layout: project
+permalink: /projects/:title
 title:  "The Hour"
 date:   2016-07-12 16:54:46
-author: Juan Luis Barreda (@achopijocoder)
+author: achopijocoder
 categories:
 - project
 img: portfolio_04.jpg
