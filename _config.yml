@@ -54,9 +54,8 @@ members:
   - name: Juan Luis Barreda
     apodo: achopijocoder
     position: Software Engineer
-    text: .NET lover & restless mind. Happily married, father & runner. (Murcia)
-    brief: Founder, .NET lover
-    specialist: Hybrid Mobile Apps
+    text: I'm a software engineer specialized in Microsoft technologies (.NET Framework, WebForms, ASP.NET MVC, WebApi, LinQ, EntityFramework, Azure, IIS, SQL Server...) also loves to develop webs and hybrid apps using Javascript frameworks like Sencha Touch, ExtJS, Knockout, Ionic and Apache Cordova.
+    brief: Founder, .NET lover, Father, Runner
     img: team01.jpg
     social:
       - title: envelope #use for email address
@@ -67,7 +66,21 @@ members:
         url: http://www.linkedin.com/in/juanlubarreda
       - title: github
         url: http://www.github.com/achopijocoder
-
+  - name: Miembro 01
+    apodo: miembro01
+    position: Position
+    text: Large description
+    brief: 3 words to describe
+    img: team02.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:testr@gmail.com
+      - title: twitter
+        url: http://twitter.com/miembro01
+      - title: linkedin
+        url: http://www.linkedin.com/in/miembro01
+      - title: github
+        url: http://www.github.com/miembro01
     
 # Clients information. Shown on Home and About pages.
 technologies:

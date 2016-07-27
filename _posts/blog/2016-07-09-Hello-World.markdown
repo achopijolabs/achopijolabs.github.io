@@ -5,8 +5,6 @@ date: 2016-07-09 16:54:46
 author: achopijocoder
 categories: 
 - blog 
-- imagination
-- ideas
 tags:
 - asp.net
 - angular2

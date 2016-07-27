@@ -1,0 +1,82 @@
+<div class="container mtb">
+    <div class="row centered">
+        
+        {% for member in site.members %}
+        {% if page.member == member.apodo %}
+        <!--<div class="col-lg-3 col-md-4 col-sm-4 col-xs-4">
+            <div class="he-wrap tpl6">
+            <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
+                <div class="he-view">
+                    <div class="bg a0" data-animate="fadeIn">
+                        <h3 class="a1" data-animate="fadeInDown">Contact Me:</h3>
+                        {% for entry in member.social %}
+                            <a href="{{ entry.url }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-{{ entry.title }}"></i></a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>	-->
+
+        <div>
+            <div class="avatar">
+                <img src="{{ "/assets/img/members/" | prepend: site.baseurl }}{{ member.img }}" alt="" width="128" height="12">
+            </div> 
+            <h1 class="name">{{ member.name }}</h1> 
+            <h2 class="description">{{ member.position }}</h2> 
+            <div style="width:100%;margin-top:30px;">
+                 {% for entry in member.social %}
+                            <a href="{{ entry.url }}" class="dmbutton2 a2" data-animate="fadeInUp">
+                                <i class="fa fa-{{ entry.title }}"></i>
+                            </a>
+                {% endfor %}
+            </div>
+            <div class="hline" style="margin: 20px 0 20px 0;"></div>
+        </div>
+        <div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align:center;width:100%;">
+	            <h4>About me </h4>
+            </div>
+            <div style="width:100%;text-align: justify;">
+                    {{ member.text }}
+            </div>
+        </div>
+
+
+        <div class="">
+             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align:center;width:100%;margin-top:30px;">
+	            <h4>My Projects </h4>
+            </div>
+            <div style="text-align:center;"><ul style="list-style:none;">
+            {% for project in site.categories['project']  %}
+                {% if project.author == member.apodo %}
+                    <li>
+                     <a href="{{  project.url | prepend: site.baseurl }}" >{{ project.title }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+            </ul></div>
+        </div><!-- portfolio -->
+
+         <div class="">
+             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align:center;width:100%;margin-top:30px;">
+	            <h4>My Posts </h4>
+            </div>
+            <div style="text-align:center;"><ul style="list-style:none;">
+            {% for post in site.categories['blog']  %}
+                {% if post.author == member.apodo %}
+                    <li>
+                     <a href="{{  post.url | prepend: site.baseurl }}" >{{ post.title }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+            </ul></div>
+        </div><!-- portfolio -->
+
+        {% endif %}
+
+
+
+        {% endfor %}
+        
+    </div><! --/row -->
+</div><! --/container -->

@@ -5,8 +5,6 @@ date: 2016-07-10 16:54:46
 author: llunix
 categories: 
 - blog 
-- imagination
-- ideas
 tags:
 - unity
 - .net
