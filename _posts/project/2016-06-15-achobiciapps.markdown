@@ -3,7 +3,7 @@ layout: project
 permalink: /projects/:title
 title:  "Acho Bici Apps"
 date:   2016-06-21 16:54:46
-author: achopijocoder
+author: juanlubarreda
 categories:
 - project
 img: portfolio_01.jpg

@@ -5,10 +5,7 @@ date: 2015-07-10 16:54:46
 author: llunix
 categories: 
 - blog 
-tags:
-- unity
-- .net
-- C#
+tags: unity .net C#
 img: post01.jpg
 thumb: thumb01.jpg
 ---

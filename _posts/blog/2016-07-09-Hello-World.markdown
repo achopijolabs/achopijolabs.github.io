@@ -2,13 +2,10 @@
 layout: post
 title: "Hello World"
 date: 2016-07-09 16:54:46
-author: achopijocoder
+author: juanlubarreda
 categories: 
 - blog 
-tags:
-- asp.net
-- angular2
-- webapi
+tags: asp.net angular2 webapi
 img: post01.jpg
 ---
 

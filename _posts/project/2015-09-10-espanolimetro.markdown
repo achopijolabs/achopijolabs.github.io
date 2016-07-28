@@ -3,7 +3,7 @@ layout: project
 permalink: /projects/:title
 title:  "Españolímetro"
 date:   2015-09-10 16:54:46
-author: achopijocoder
+author: juanlubarreda
 categories:
 - project
 img: portfolio_02.jpg
