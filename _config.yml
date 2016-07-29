@@ -5,7 +5,10 @@ title: AchoPijo LABS.
 description: "Achopijo LABS is the place where a team of restless minds are innovating and exploring new technologies and new ideas and bringing them to life."
 analytics: UA-78433190-3
 baseurl: "" #important: start with /
-url: "http://www.achopijolabs.com"
+#url: "http://www.achopijolabs.com"
+url: https://www.achopijolabs.com   # with the https protocol
+enforce_ssl: www.achopijolabs.com   # without any protocol
+
 # Build settings
 markdown: kramdown
 permalink: /blog/:title
