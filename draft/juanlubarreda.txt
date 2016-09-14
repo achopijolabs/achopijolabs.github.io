@@ -1,1 +1,2 @@
+- update from ionic 2.0.0-beta.10 to ionic 2.0.0-beta.11
 - sql search text, apexsql search, redgate sql search, script from stackoverflow
