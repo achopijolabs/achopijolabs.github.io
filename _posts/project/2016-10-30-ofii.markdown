@@ -11,7 +11,7 @@ carousel:
 tagged: 
 status: In progress
 client: Free, public
-technologies: Azure, Angular 2, ASP.Net, Sql Server
+technologies: Azure, ASP.Net, MVC , Sql Server
 website: 
 ---
 #### Ofii
