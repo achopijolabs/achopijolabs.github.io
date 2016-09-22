@@ -729,3 +729,12 @@ h2.description {
 .tag:hover::after {
   border-left-color: #00B3FE;
 }
+
+.header_image{
+	background-image: url("/assets/img/portada.jpg");
+	background-size: cover;
+	height: 300px;
+	color: white;
+    font-size: xx-large;
+	padding-top: 80px;
+}
