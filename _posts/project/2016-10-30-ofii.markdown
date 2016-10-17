@@ -9,13 +9,15 @@ categories:
 img: portfolio_03.jpg
 carousel:
 tagged: 
-status: In progress
+status: Initial / Brainstorming
 client: Free, public
-technologies: Azure, ASP.Net, MVC , Sql Server
+technologies: Azure?, ASP.Net?, MVC? , Sql Server? Mongo?
 website: 
 ---
 #### Ofii
 Ofii is a project that will try to be the assistant of any worker worldwide whose work environment is an office. The objective of this project is to create a kind of co-worker to help you with day to day in certain aspects of daily work that at the moment I can not reveal :)
 
-This project development starts on September '16 and it's planned to be finished and ready to launch by the Q3 (2017).
+I'm studying the plan for this project and setting a priority with other new projects more affordable (in time and costs)
+
+
 
