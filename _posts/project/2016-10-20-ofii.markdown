@@ -2,7 +2,7 @@
 layout: project
 permalink: /projects/:title
 title:  "Ofii"
-date:   2016-07-10 16:54:46
+date:   2016-10-20 16:54:46
 author: juanlubarreda
 categories:
 - project
