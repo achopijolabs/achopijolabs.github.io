@@ -70,21 +70,21 @@ members:
         url: http://www.linkedin.com/in/juanlubarreda
       - title: github
         url: http://www.github.com/achopijocoder
-  - name: Miembro 01
-    apodo: miembro01
-    position: Position
-    text: Large description
-    brief: 3 words to describe
+  - name: Angel Castillo
+    apodo: angelcastillo
+    position: Software Engineer
+    text: He is a software engineer graduated in Computer Science from the University of Valencia (Spain).
+    brief: .Net developer. Front-end lover.
     img: team02.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:testr@gmail.com
+        url: mailto:ancascar@hotmail.com
       - title: twitter
-        url: http://twitter.com/miembro01
+        url: https://twitter.com/candumaru
       - title: linkedin
-        url: http://www.linkedin.com/in/miembro01
+        url: www.linkedin.com/in/angelcastillocarrilero
       - title: github
-        url: http://www.github.com/miembro01
+        url: http://www.github.com/senorpatata
     
 # Clients information. Shown on Home and About pages.
 technologies:
