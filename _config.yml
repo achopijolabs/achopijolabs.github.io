@@ -73,7 +73,8 @@ members:
   - name: Angel Castillo
     apodo: angelcastillo
     position: Software Engineer
-    text: He is a software engineer graduated in Computer Science from the University of Valencia (Spain).
+    text: He is a 12 year experiende software engineer graduated in Computer Science from the University of Valencia (Spain). He is focused in Microsoft technologies from back (like SQLServer) to front (like TypeScript). In his free time he practice trekking, hicking and he climb little mountains. 
+    technologies: Microsoft .NET Full Stack Developer (ASP.NET MVC, WebForms, WebAPI, WinForms, LINQ, EntityFramework, LINQ to SQL, Azure, SQL Server, IIS...), CSS, HTML5, Javascript, JQuery, Angular, Bootstrap. 
     brief: .Net developer. Front-end lover.
     img: team02.jpg
     social:
