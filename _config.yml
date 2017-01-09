@@ -1,120 +1,32 @@
-### GENERAL SETTINGS ###
-
 # Site settings
-title: AchoPijo LABS.
-description: "Achopijo LABS is the place where a team of restless minds are innovating and exploring new technologies and new ideas and bringing them to life."
-analytics: UA-78433190-3
-baseurl: "" #important: start with /
-#url: "http://www.achopijolabs.com"
-url: https://www.achopijolabs.com   # with the https protocol
-enforce_ssl: www.achopijolabs.com   # without any protocol
+title: Achopijo Labs, meet our ideas and projects
+email:
+description: A jekyll template for landing pages, portfolio and blogging
+
+baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
+url: "https://achopijolabs.github.io" # the base hostname & protocol for your site
+
+#Google Ad Words Data from scripts code (using Google responsive options) and ad client
+data-ad-slot: 2973388149
+data-ad-client: ca-pub-9204963049240271
+google_ad_client: ca-pub-9204963049240271
+
+google_analytics: "UA-78433190-3"
+disqus_account: achopijolabs
+
+# Social networks usernames (many more available: flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.) see all icon at fontawesome.io
+social:
+  - title: twitter
+    url: https://twitter.com/achopijolabs
+  - title: github
+    url: http://github.com/achopijolabs
 
 # Build settings
 markdown: kramdown
-permalink: /blog/:title
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
-gems: [jekyll-paginate]
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031"  
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
-  secondary: "#384452" #"#33004D"
-  link: "#428bca"
-  link_hover: "#01b2fe"
-  footer_heading: "#ffffff"
-  footer_content: "#bfc9d3"
-  dark: "#384452"
-  
-  
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
-social:
-  - title: twitter
-    url: http://twitter.com/achopijocoder
- # - title: dribbble
- #   url:
- # - title: facebook
- #   url:
- # - title: instagram
- #   url: 
- # - title: tumblr
- #   url: 
-    
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-address:
-  - lines: 
-    - Murcia & Valencia,
-    - Spain, Europe.
-email: achopijolabs@gmail.com
-tel: 
-
-
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-    
-# Members information. Shown on About page.
-members:
-  - name: Juan Luis Barreda
-    apodo: juanlubarreda
-    position: Software Engineer
-    text: He is a software engineer graduated in Computer Science from the University of Murcia (Spain) and stayed a semester in the University of Southern Indiana (EEUU). He was granted with a research fellowship at the Industrial Automation Institute (Madrid) for the Spanish National Research Council (CSIC) and is currently working at Valencia (Spain). He has deal with Business Inteligence projects, developing Matlab research tools but is mainly focused on Microsoft stack technologies. In his free time enjoy his two children, run some kilometers and develops personal projects.
-    technologies: Microsoft .NET Full Stack Developer (ASP.NET MVC, WebForms, WebAPI, WinForms, LINQ, EntityFramework, LINQ to SQL, Azure, SQL Server, IIS...), CSS, HTML5, Javascript, JQuery, Angular, Bootstrap and very interested in Mobile hybrid development (Apache Cordova/Phonegap, JQuery Mobile, Sencha, Knockout, Ionic 2). 
-    brief: Founder, .NET lover
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:achopijocoder@gmail.com
-      - title: twitter
-        url: http://twitter.com/achopijocoder
-      - title: linkedin
-        url: http://www.linkedin.com/in/juanlubarreda
-      - title: github
-        url: http://www.github.com/achopijocoder
-  - name: Angel Castillo
-    apodo: angelcastillo
-    position: Software Engineer
-    text: He is a 12 year experiende software engineer graduated in Computer Science from the University of Valencia (Spain). He is focused in Microsoft technologies from back (like SQLServer) to front (like TypeScript). In his free time he practice trekking, hicking and he climb little mountains. 
-    technologies: Microsoft .NET Full Stack Developer (ASP.NET MVC, WebForms, WebAPI, WinForms, LINQ, EntityFramework, LINQ to SQL, Azure, SQL Server, IIS...), CSS, HTML5, Javascript, JQuery, Angular, Bootstrap. 
-    brief: .Net developer. Front-end lover.
-    img: team02.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:ancascar@hotmail.com
-      - title: twitter
-        url: https://twitter.com/candumaru
-      - title: linkedin
-        url: www.linkedin.com/in/angelcastillocarrilero
-      - title: github
-        url: http://www.github.com/senorpatata
-    
-# Clients information. Shown on Home and About pages.
-technologies:
-  - name: asp.net
-    img: client01.png
-  - name: angular
-    img: client02.png
-  - name: bootstrap
-    img: client04.png
-  - name: android
-    img: client05.png
-  - name: apache cordova
-    img: client06.png
-  - name: ionic2
-    img: client07.png
-  - name: mongodb
-    img: client08.png
-  - name: visual studio
-    img: client10.png
-  - name: xamarin
-    img: client11.png
-  - name: unity
-    img: client12.png
-    
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "AchoPijo Labs is the place where we share our projects meanwhile we keep on creating and developing our best ideas."
-
-# Testimonial content. Shown on Home and About page. 
-testimonial:
-    message: "I believe in intuition and inspiration. Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world, stimulating progess, giving birth to evolution. It is, strictly speaking, a real factor in scientific research."
-    author: Albert Einstein
-    position: Scientific
+gems: [jekyll-paginate, jekyll-feed]
+# Build settings
