@@ -13,7 +13,7 @@ tagged: Mobile, Hybrid, Geolocation
 status: Published
 client: Free, Public
 technologies: Ionic 2, Angular 2, Cordova, Google Maps
-website: https://play.google.com/store/apps/developer?id=AchoPijoLabs
+website: http://play.google.com/store/apps/dev?id=8889516826922171690
 carousel:
 - 02_screenshot_01.jpg
 ---
