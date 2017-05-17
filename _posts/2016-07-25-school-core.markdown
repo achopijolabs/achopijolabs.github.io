@@ -3,7 +3,7 @@ layout:     project
 permalink: /projects/:title
 title:      "School Core"
 subtitle:   "New communication platform for schools"
-date:       2016-07-25 12:00:00
+date:       
 author:     juanlubarreda
 header-img: "/img/portfolio/03_header.jpg"
 type: project
@@ -13,7 +13,7 @@ carousel:
 tagged: 
 status: In Progress
 client: Free, public
-technologies: Azure, Ionic 2 / Angular 2, ASP.Net WebAPI, Angular 2, MongoDB/SQL Server
+technologies: Azure, Ionic 2 or Nativescript , ASP.Net Core, Angular 2, MongoDB or SQL Server
 website: 
 ---
 
